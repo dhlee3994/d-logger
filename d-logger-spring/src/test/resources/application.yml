@@ -1,0 +1,9 @@
+http-logging:
+  include-paths:
+    - /api/**
+  exclude-paths:
+    - /health
+  mask-headers:
+    - Authorization
+  mask-body:
+    - password
